@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Form</title>
+		<link rel="stylesheet" href="./style.css" />
+	</head>
+	<body>
+		<div class="container">
+			<h1 class="text-center heading">Form</h1>
+			<div id="error"></div>
+			<div id="success"></div>
+			<div id="dataResult"></div>
+			<form>
+				<div class="form-control">
+					<label for="email">Email</label>
+					<input id="email" type="text" name="email" placeholder="Enter your email.." />
+				</div>
+				<div class="form-control">
+					<label for="password">Password</label>
+					<input id="password" type="password" name="password" placeholder="Enter a password.." />
+				</div>
+				<div class="form-control">
+					<label for="gender">Gender</label>
+					<select id="gender" name="gender">
+						<option value="" disabled selected>Enter your gender</option>
+						<option value="male">Male</option>
+						<option value="female">Female</option>
+						<option value="others">Others</option>
+					</select>
+				</div>
+				<div class="form-control">
+					<label for="role">Role</label>
+					<div>
+						<span class="radio-field">
+							<input type="radio" id="admin" name="role" value="admin" />
+							<label for="admin">Admin</label>
+						</span>
+						<span class="radio-field">
+							<input type="radio" id="user" name="role" value="user" />
+							<label for="user">User</label>
+						</span>
+					</div>
+				</div>
+				<div class="form-control">
+					<label for="permission">Permissions</label>
+					<div>
+						<span class="checkbox-field">
+							<input type="checkbox" name="permission" id="perm1" value="perm1" />
+							<label for="perm1">Perm1</label>
+						</span>
+						<span class="checkbox-field">
+							<input type="checkbox" name="permission" id="perm2" value="perm2" />
+							<label for="perm2">Perm2</label>
+						</span>
+						<span class="checkbox-field">
+							<input type="checkbox" name="permission" id="perm3" value="perm3" />
+							<label for="perm3">Perm3</label>
+						</span>
+						<span class="checkbox-field">
+							<input type="checkbox" name="permission" id="perm4" value="perm4" />
+							<label for="perm4">Perm4</label>
+						</span>
+					</div>
+				</div>
+				<button id="submit">Submit</button>
+			</form>
+		</div>
+		<script src="./app.js"></script>
+	</body>
+</html>

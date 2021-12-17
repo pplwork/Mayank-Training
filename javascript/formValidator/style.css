@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+.container {
+	width: 75%;
+	margin: 3rem auto;
+	padding: 3rem;
+	border-radius: 10px;
+	box-shadow: 3px 8px 18px 8px #00000038;
+}
+.text-center {
+	text-align: center;
+}
+.heading {
+	font-size: 3rem;
+	font-weight: 700;
+}
+form {
+	width: 100%;
+}
+.form-control {
+	display: grid;
+	grid-template-columns: 30% 30%;
+	column-gap: 2rem;
+	justify-content: center;
+	align-items: center;
+	margin-top: 1rem;
+	font-size: 1.3rem;
+}
+.form-control > label {
+	text-align: end;
+}
+.form-control input,
+.form-control select {
+	padding: 5px;
+	font-size: 1rem;
+	border: 1px solid #0000008f;
+	background: #e7e7e7bf;
+	border-radius: 5px;
+}
+.form-control .radio-field,
+.form-control .checkbox-field {
+	font-size: 1rem;
+	margin-right: 5px;
+	padding: 5px 7px;
+	border-radius: 5rem;
+}
+input[type='radio'] + label {
+	cursor: pointer;
+}
+.form-control .radio-field:hover,
+.form-control .checkbox-field:hover {
+	background: #acacac7a;
+}
+.background-dark {
+	background: #acacac7a;
+}
+
+#submit {
+	font-size: 1.1rem;
+	width: 10rem;
+	padding: 0.8rem 1rem;
+	margin: 1rem auto;
+	display: block;
+	border-radius: 0.7rem;
+	border: 1px solid black;
+}
+
+#error {
+	text-align: center;
+	width: 70%;
+	padding: 5px;
+	border: 2px solid red;
+	margin: 8px auto;
+	background: #ff000029;
+	color: red;
+	border-radius: 9px;
+	display: none;
+}
+#success {
+	text-align: center;
+	width: 70%;
+	padding: 5px;
+	border: 2px solid green;
+	margin: 8px auto;
+	background: #00800038;
+	color: green;
+	border-radius: 9px;
+	display: none;
+}
+
+#dataResult {
+	margin-top: 2rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+#dataResult h2 {
+	margin: 5px;
+}
