@@ -1,0 +1,14 @@
+{
+	"name": "natours",
+	"version": "1.0.0",
+	"description": "landing page of natours project",
+	"main": "index.js",
+	"scripts": {
+		"complie:sass": "node-sass sass/main.scss css/style.css -w"
+	},
+	"author": "Mayank Bisht",
+	"license": "ISC",
+	"devDependencies": {
+		"node-sass": "^7.0.0"
+	}
+}
