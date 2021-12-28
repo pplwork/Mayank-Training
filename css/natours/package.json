@@ -4,7 +4,7 @@
 	"description": "landing page of natours project",
 	"main": "index.js",
 	"scripts": {
-		"complie:sass": "node-sass sass/main.scss css/style.css -w"
+		"compile:sass": "node-sass sass/main.scss css/style.css -w"
 	},
 	"author": "Mayank Bisht",
 	"license": "ISC",
